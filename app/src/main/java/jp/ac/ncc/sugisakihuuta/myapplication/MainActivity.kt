@@ -291,7 +291,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
     private fun performSearch(query: String) {
-        clearAllMarkers() // ピンをクリア
+        clearAllMarkers()
 
         val shelters = ShelterHelper.searchShelters(query)
         updateSheltersUI(shelters)
