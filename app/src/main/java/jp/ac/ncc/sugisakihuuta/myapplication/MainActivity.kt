@@ -286,7 +286,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         // 完了後にロード画面を非表示にする
         /*Handler(Looper.getMainLooper()).postDelayed({
             hideLoadingScreen()
-        }, 3000) // 3秒待ってから非表示にする*/
+        }, 3000) // 3秒待ってから非表示にする例*/
 
     }
 
