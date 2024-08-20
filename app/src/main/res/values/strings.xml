@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SeachShelter</string>
+    <string name="google_maps_key">AIzaSyCf52YgzYHqq6Y-kOD4hDYNSxYCyiMuL-A</string>
+    <string name="google_places_key">AIzaSyCd52mk98T-hjCy9HvigCBBbz7u1FfjMa4</string>
+    <string name="location_text">Location: %f, %f</string>
+
+    <string-array name="distance_options">
+        <item>最も近い</item>
+        <item>1km</item>
+        <item>2km</item>
+        <item>3km</item>
+        <item>4km</item>
+        <item>5km</item>
+    </string-array>
+
+    <string name="drawer_open">ドロワーが開いています</string>
+    <string name="drawer_close">ドロワーが閉じています</string>
+
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <style name="AlertDialogButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+</resources>
+
+
