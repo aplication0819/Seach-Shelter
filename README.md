@@ -1,16 +1,16 @@
-# Seach Shelter �A�v��
+# Seach Shelter アプリ
 
-## �T�v
-Seach Shelter�́A���[�U�[���ߗׂ̔����������A����ۑ��ł���Android�A�v���P�[�V�����ł��BGoogle�}�b�v�ƘA�g���A���[�U�[�����ݒn��w�肵���ꏊ����Ŋ��̔����ȒP�Ɍ����ł��܂��B
+## 概要
+Seach Shelterは、ユーザーが近隣の避難所を検索し、情報を保存できるAndroidアプリケーションです。Googleマップと連携し、ユーザーが現在地や指定した場所から最寄りの避難所を簡単に検索できます。
 
-## ��ȋ@�\
-- �ߗׂ̔�������
-- Google�}�b�v��Ŕ��̈ʒu��\��
-- �����̕ۑ�
+## 主な機能
+- 近隣の避難所を検索
+- Googleマップ上で避難所の位置を表示
+- 避難所情報の保存
 
-## APK�_�E�����[�h
-�ŐV��APK�t�@�C�����ȉ��̃����N����_�E�����[�h���āA�A�v�����C���X�g�[�����Ă��������B
+## APKダウンロード
+最新のAPKファイルを以下のリンクからダウンロードして、アプリをインストールしてください。
 
-[APK���_�E�����[�h](./app-debug.apk)
+[APKをダウンロード](./app/apk/app-debug.apk))
 
-> **����:** �X�}�[�g�t�H����APK�t�@�C�����C���X�g�[������O�ɁA�ݒ�Łu�񋟌��s���̃A�v���v�������Ă��������B
+> **注意:** スマートフォンにAPKファイルをインストールする前に、設定で「提供元不明のアプリ」を許可してください。
