@@ -742,6 +742,4 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         }
     }
 
-
-
 }
