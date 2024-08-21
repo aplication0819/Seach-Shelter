@@ -25,7 +25,12 @@ abstract class SavedShelterDatabase : RoomDatabase() {
                 instance
             }
         }
+        fun clearDatabase(context: Context) {
+            val instance = INSTANCE
+            if (instance != null) {
+                instance.clearAllTables()
+            }
+        }
     }
-
 }
 
