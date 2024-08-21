@@ -127,6 +127,16 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // アプリ初回起動時にデータベースをクリアする
+        val sharedPrefs = getSharedPreferences("app_prefs", MODE_PRIVATE)
+        if (!sharedPrefs.getBoolean("isFirstRun", false)) {
+            SavedShelterDatabase.clearDatabaseSync(this)
+            with(sharedPrefs.edit()) {
+                putBoolean("isFirstRun", true)
+                apply()
+            }
+        }
+
         // ロード画面を表示
         loadingScreen = findViewById(R.id.loading_screen) as FrameLayout
         showLoadingScreen()
@@ -741,7 +751,5 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
             }
         }
     }
-
-
 
 }
