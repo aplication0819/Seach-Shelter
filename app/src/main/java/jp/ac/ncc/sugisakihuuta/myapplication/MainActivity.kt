@@ -130,7 +130,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         // アプリ初回起動時にデータベースをクリアする
         val sharedPrefs = getSharedPreferences("app_prefs", MODE_PRIVATE)
         if (!sharedPrefs.getBoolean("isFirstRun", false)) {
-            SavedShelterDatabase.clearDatabase(this)
+            SavedShelterDatabase.clearDatabaseSync(this)
             with(sharedPrefs.edit()) {
                 putBoolean("isFirstRun", true)
                 apply()
